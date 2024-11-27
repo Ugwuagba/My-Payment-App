@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+.nav-one {
+  width: 100vw;
+  height: 90px;
+  background: rgba(15, 12, 233, 0.74);
+}
+.nav-2 {
+  margin: 0;
+  width: 100vw;
+  height: 50px;
+  background: #fff;
+}
+.container {
+  box-sizing: border-box;
+  display: flex;
+  width: 100vw;
+  height: 200px;
+  background: rgb(28, 28, 211);
+  align-items: center;
+  justify-content: center;
+}
+/* .user{
+  display: flex;
+  align-self: flex-start;
+  margin: 0;
+  height: 20px;
+} */
+.hero {
+  box-sizing: border-box;
+  display: inline-block;
+  display: flex;
+  width: 90%;
+  height: 90px;
+  border-radius: 20px;
+  background: #fff;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 15px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+}
+.fund {
+  background: rgb(28, 28, 211);
+  height: 80px;
+  width: 70px;
+  align-self: flex-end;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  padding-right: 10px;
+}
+/* #commision{
+  background: red;
+} */
